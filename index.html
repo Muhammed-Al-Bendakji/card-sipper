@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="card-swiper">
+      <div class="card-groups">
+        <div class="card-group" data-index="0" data-status="active">
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+        </div>
+        <div class="card-group" data-index="1" data-status="unknown">
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+        </div>
+        <div class="card-group" data-index="2" data-status="unknown">
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+          <div class="little-card card"></div>
+          <div class="big-card card"></div>
+        </div>
+      </div>
+      <div class="card-swiper-buttons">
+        <button
+          type="button"
+          id="hate-button"
+          onclick="handleHateClick()"
+          title="hate-button"
+        >
+          <i class="fa-solid fa-x"></i>
+        </button>
+        <button
+          type="button"
+          id="love-button"
+          onclick="handleLoveClick()"
+          title="love-button"
+        >
+          <i class="fa-sharp fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
